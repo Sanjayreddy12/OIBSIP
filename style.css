@@ -1,0 +1,119 @@
+
+body{
+    background-color: steelblue;
+    font-family: sans-serif;
+    
+}
+.calculator {
+    
+    width: 300px;
+    
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    
+    
+    
+  }
+  
+  input[type="text"] {
+    background-color: #b0e0e6;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 1.5rem;
+    border-style: none;
+    color: steelblue;
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  
+  
+  .keypad button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 17px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #b0e0e6;
+
+  }
+  
+  .keypad button:hover {
+    background-color: white;
+    color:rgb(0, 162, 184)
+  }
+  
+  .keypad button:active {
+    background-color: #d9d9d9;
+  }
+  
+  .keypad .clr{
+    background-color: rgb(47, 186, 204);
+  }
+  
+  .keypad .del {
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .plus{
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .mul{
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .div{
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .sub{
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .brl{
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .brr{
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .point{
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .mod{
+    background-color: rgb(47, 186, 204);
+  }
+  .keypad .root{
+    background-color: rgb(47, 186, 204);
+  }
+  
+  .keypad .enter {
+    background-color: rgb(0, 162, 184);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 110px;
+  }
+  
+  .keypad .num{
+    font-weight: bold;
+    background-color: #b0e0e6 ;
+    border-radius: 5px;
+    border-style: none;
+    color: black;
+  }
+
+  .footer{
+    
+    display: table;
+    margin: auto;
+    margin-top: 50px;
+    color:  white;
+  }
+  
